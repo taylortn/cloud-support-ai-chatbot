@@ -48,12 +48,12 @@ function App() {
   return (
     <div className="app">
       <div className="chat-container">
-        <h1>Cloud Support AI Chatbot</h1>
+        <h1>Khameleon AI Assistant</h1>
 
         <div className="chat-box">
           {chatHistory.length === 0 ? (
             <p className="placeholder">
-              Ask me about AWS, Linux, or cloud troubleshooting...
+              Ask me anything - tech, cloud, or general support...
             </p>
           ) : (
             chatHistory.map((chat, index) => (
